@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <main>
         <h1>welcome to the pizza app</h1>
-        <Button variant="outline">Button</Button>
+        <Button>Button</Button>
       </main>
     </>
   );
