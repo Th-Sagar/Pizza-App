@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import Image from "next/image";
-import ProductCard, { Product } from "./components/ProductCard";
+import ProductCard, { Product } from "./components/product-card";
 
 const products: Product[] = [
   {
