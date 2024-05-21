@@ -44,7 +44,7 @@ const products: Product[] = [
 export default function Home() {
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-white ">
         <div className="container flex items-center justify-between py-24">
           <div>
             <h1 className="text-7xl font-black font-sans leading-2">
@@ -70,7 +70,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className=" container py-12">
+        <div className=" container  py-12">
           <Tabs defaultValue="pizza">
             <TabsList>
               <TabsTrigger className=" text-md" value="pizza">
@@ -81,7 +81,7 @@ export default function Home() {
               </TabsTrigger>
             </TabsList>
             <TabsContent value="pizza">
-              <div className=" grid gap-6 grid-cols-4  mt-6">
+              <div className=" grid gap-6 grid-cols-2 lg:grid-cols-4  mt-6">
                 {products.map((product) => (
                   <ProductCard key={product.id} product={product} />
                 ))}
